@@ -32,16 +32,6 @@
         "sass": "^1.53.0",
         "vite": "^2.6.7"
     },
-    "parser": "@babel/eslint-parser",
-    "parserOptions": {
-        "ecmaVersion": 8,
-        "requireConfigFile": false,
-        "babelOptions": {
-            "presets": [
-                "@babel/preset-react"
-            ]
-        }
-    },
     "babel": {
         "presets": [
             "nano-react-app"
