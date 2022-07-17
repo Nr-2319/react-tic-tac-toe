@@ -16,8 +16,8 @@ export function calculateWinner(squares) {
             squares[a] === squares[b] &&
             squares[a] === squares[c]
         ) {
-            return squares[a];
+            return { winner: squares[a], winningSquares: [a, b, c] };
         }
     }
-    return null;
+    return { winner: null, winningSquares: [] };
 }
